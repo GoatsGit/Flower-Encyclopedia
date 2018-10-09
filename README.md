@@ -54,8 +54,6 @@ CREATE TABLE answer ('id' INTEGER NOT NULL PRIMARY KEY. 'Q' VARCHAR[500] NOT NUL
 .quit 입력 후 db와 table 생성을 완료한다.
 ```
 
-※ 카카오톡 api 서버와 라즈베리파이가 서로 통신하려면 [포트포워딩](https://blog.naver.com/roboholic84/221052591741)을 하여 해당 포트를 열어놓아야 한다.
-
 ### 3. kakaoChat 디렉토리에 main.js를 생성 후 아래 코드 작성(카카오톡 api가 정상적으로 작동하는지 확인하기 위해)
 ```var express = require('express');
 var http = require('http');
@@ -125,3 +123,7 @@ http.createServer(app).listen(process.env.PORT || 5000, function() {
 })
 ```
 
+### 4. 카카오톡 플러스친구 개설하기
+[카카오톡 플러스친구 개설하기](https://center-pf.kakao.com/)링크로 접속하여 플러스 친구를 개설한다.
+- api를 제작하여 사용하기 위해 `스마트 채팅의 API형으로 설정`해야한다.
+- 카카오톡 api 서버와 라즈베리파이가 서로 통신하려면 [포트포워딩](https://blog.naver.com/roboholic84/221052591741)을 하여 해당 포트를 열어놓아야 한다.
