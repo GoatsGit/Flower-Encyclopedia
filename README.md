@@ -13,8 +13,11 @@
 
 ## ★ 개발 환경 ★
 -Raspbian(Raspberry Pi3)
+
 -Node.js
+
 -Windows 10(Laptop Computer)
+
 -Python(Tensorflow)
 
 ## ★ 개발 내용 ★
