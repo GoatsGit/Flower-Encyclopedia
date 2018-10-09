@@ -56,7 +56,7 @@ CREATE TABLE answer ('id' INTEGER NOT NULL PRIMARY KEY. 'Q' VARCHAR[500] NOT NUL
 .quit 입력 후 db와 table 생성을 완료한다.
 ```
 
-// kakaoChat 디렉토리에 main.js를 생성 후 아래 코드 작성(카카오톡 api가 정상적으로 작동하는지 확인하기 위해)
+### 3. kakaoChat 디렉토리에 main.js를 생성 후 아래 코드 작성(카카오톡 api가 정상적으로 작동하는지 확인하기 위해)
 ```
 var express = require('express');
 var http = require('http');
