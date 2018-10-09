@@ -54,7 +54,7 @@ CREATE TABLE answer ('id' INTEGER NOT NULL PRIMARY KEY. 'Q' VARCHAR[500] NOT NUL
 .quit 입력 후 db와 table 생성을 완료한다.
 ```
 
-※ 카카오톡 api 서버를 이용하여 라즈베리파이와 통신하려면 라즈베리파이에 대한 [포트포워딩](https://blog.naver.com/roboholic84/221052591741)이 이루어져 있어야한다.
+※ 카카오톡 api 서버와 라즈베리파이가 서로 통신하려면 [포트포워딩](https://blog.naver.com/roboholic84/221052591741)을 하여 해당 포트를 열어놓아야 한다.
 
 ### 3. kakaoChat 디렉토리에 main.js를 생성 후 아래 코드 작성(카카오톡 api가 정상적으로 작동하는지 확인하기 위해)
 ```var express = require('express');
