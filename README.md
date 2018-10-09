@@ -6,6 +6,7 @@
 2. Smart Phone(iOS, Android 모두 가능)
 3. KaKao Talk 계정
 
+![image](https://user-images.githubusercontent.com/43947747/46646178-9db8df00-cbc3-11e8-931d-4f227ad1d272.png)
 
 
 ## 
