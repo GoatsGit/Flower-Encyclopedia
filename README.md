@@ -15,6 +15,11 @@
 1. 카카오톡 api 서버를 구축한 후 카카오톡 플러스 친구를 직접 만들어 서비스를 제공한다.
 2. 나만의 데이터로 모델을 재학습 시켜야한다.
 
+## ★ Raspbian OS 환경설정 ★
+- Raspbian OS 환경 설정은 Raspberry Pi 웹사이트를 참고하시오.
+- 표준시간대 설정은 필수이니 변경하시오.
+- `sudo apt-get uprade` 명령을 먼저 실행시킨 후 `sudo apt-get update` 명령을 실행시켜 OS를 업데이트 하시오.
+
 ## ★ 필요한 프로그램과 도구 설치하기 ★
 ```
 sudo apt-get install python3-pip
