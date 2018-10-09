@@ -28,8 +28,8 @@
 - 4주차: 학습이 잘 되었다면 추가할 종류의 꽃 데이터 수집후 학습 진행
 
 ## ★ Raspbian OS 환경설정 ★
-- Raspbian OS 환경 설정은 [Raspberry Pi 웹사이트](https://www.raspberrypi.org/documentation/installation/installing-images/)를 참고하시오.
-- `sudo apt-get uprade` 명령을 먼저 실행시킨 후 `sudo apt-get update` 명령을 실행시켜 OS를 업데이트 하시오.
+- Raspbian OS 환경 설정은 [Raspberry Pi 웹사이트](https://www.raspberrypi.org/documentation/installation/installing-images/) 참고.
+- `sudo apt-get uprade` 명령을 먼저 실행시킨 후 `sudo apt-get update` 명령을 실행시켜 OS 업데이트 .
 
 ## ★ 필요한 프로그램과 도구 설치하기 ★
 ### 1. Tensorflow 설치
