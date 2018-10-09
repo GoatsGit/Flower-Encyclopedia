@@ -14,4 +14,16 @@
 ## ★ 개발 내용 ★
 1. 카카오톡 api 서버를 구축한 후 카카오톡 플러스 친구를 직접 만들어 서비스를 제공한다.
 2. 나만의 데이터로 모델을 재학습 시켜야한다.
-3. 
+
+## ★ 필요한 프로그램과 도구 설치하기 ★
+```
+sudo apt-get install python3-pip
+sudo pip3 install chainer==1.19.0
+sudo pip3 install scipy
+sudo pip3 install h5py
+sudo apt-get install python-h5py
+sudo apt-get install libopen-jp2-7-dev
+sudo apt-get install libtiff5
+sudo pip3 install Pillow
+sudo apt-get install libatlas-base-dev
+```
