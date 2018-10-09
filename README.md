@@ -21,15 +21,12 @@
 
 ## ★ 필요한 프로그램과 도구 설치하기 ★
 ### 1. Tensorflow 설치
- ```
-sudo apt-get install python3-pip //기본적으로 Raspbian OS에 설치되지만 혹시 모르니 해 볼 것!(python3.x 용)
+ ```sudo apt-get install python3-pip //기본적으로 Raspbian OS에 설치되지만 혹시 모르니 해 볼 것!(python3.x 용)
 sudo apt install libatlas-base-dev //Atlas 패키지 설치(Numpy 패키지의 선형대수를 이용하기 위해 필요)
-pip3 install tensorflow
-```
+pip3 install tensorflow```
 
 ### 2. node.js 설치 및 작업 준비하기
-```
-sudo apt-get install nodejs
+```sudo apt-get install nodejs
 node.js -v // 설치 확인
 sudo apt-get install npm
 
@@ -53,12 +50,10 @@ sqlite3 kakaodb.db.database
 sqlite3
 .open kakaodb.db
 CREATE TABLE answer ('id' INTEGER NOT NULL PRIMARY KEY. 'Q' VARCHAR[500] NOT NULL. 'A' VARCHAR[500] NOT NULL);
-.quit 입력 후 db와 table 생성을 완료한다.
-```
+.quit 입력 후 db와 table 생성을 완료한다.```
 
 ### 3. kakaoChat 디렉토리에 main.js를 생성 후 아래 코드 작성(카카오톡 api가 정상적으로 작동하는지 확인하기 위해)
-```
-var express = require('express');
+```var express = require('express');
 var http = require('http');
 var bodyParser = require('body-parser');
 var app = express(); // express 엔진 선언
@@ -123,6 +118,5 @@ app.post('/message' , function(req,res){
 http.createServer(app).listen(process.env.PORT || 5000, function() {
  console.log('5000 port Server Startup..');
  console.log('hello ')
-})
-```
+})```
 
