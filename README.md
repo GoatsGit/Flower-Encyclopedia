@@ -12,23 +12,20 @@
 ![image](https://user-images.githubusercontent.com/43947747/46646178-9db8df00-cbc3-11e8-931d-4f227ad1d272.png)
 
 ## ★ 개발 환경 ★
--Raspbian(Raspberry Pi3)
-
--Node.js
-
--Windows 10(Laptop Computer)
-
--Python(Tensorflow)
+- Raspbian(Raspberry Pi3)
+- Node.js
+- Windows 10(Laptop Computer)
+- Python(Tensorflow)
 
 ## ★ 개발 내용 ★
 1. 카카오톡 api 서버를 구축한 후 카카오톡 플러스 친구를 직접 만들어 서비스를 제공.
 2. 나만의 데이터로 모델을 재학습.
 
 ## ★ 일정 계획 ★
--1주차: 카카오톡 플러스 친구 개설 및 api 제작
--2주차: 모델을 재학습시킬때 사용할 데이터 수집 및 최초 학습
--3주차: 예측률이 90%를 넘을때까지 재학습
--4주차: 학습이 잘 되었다면 추가할 종류의 꽃 데이터 수집후 학습 진행
+- 1주차: 카카오톡 플러스 친구 개설 및 api 제작
+- 2주차: 모델을 재학습시킬때 사용할 데이터 수집 및 최초 학습
+- 3주차: 예측률이 90%를 넘을때까지 재학습
+- 4주차: 학습이 잘 되었다면 추가할 종류의 꽃 데이터 수집후 학습 진행
 
 ## ★ Raspbian OS 환경설정 ★
 - Raspbian OS 환경 설정은 [Raspberry Pi 웹사이트](https://www.raspberrypi.org/documentation/installation/installing-images/)를 참고하시오.
