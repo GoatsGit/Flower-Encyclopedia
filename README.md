@@ -118,6 +118,6 @@ http.createServer(app).listen(process.env.PORT || 5000, function() {
 - api를 제작하여 사용하기 위해 `스마트 채팅의 API형으로 설정`해야한다.
 - 카카오톡 api 서버와 라즈베리파이가 서로 통신하려면 [`포트포워딩`](https://blog.naver.com/roboholic84/221052591741)을 하여 해당 포트를 열어놓아야 한다.
 
-## 참고 문헌
+## ※ 참고 문헌
 - [카카오톡 챗봇 만들기](https://blog.naver.com/roboholic84/221361971666)
 - [라즈베리파이를 이용하여 사물을 설명해보자](https://blog.naver.com/zeta0807/221300685644)
