@@ -1,35 +1,13 @@
 # Flower-Encyclopedia(꽃 백과사전)
 사용자가 사진을 카카오톡 플러스 친구에게 전송하면, 꽃에 대한 설명을 카카오톡 메세지로 사용자에게 전송해주는 챗봇 만들기 프로젝트입니다.
 
-![default](https://user-images.githubusercontent.com/43947747/46646985-613bb200-cbc8-11e8-89e5-7e5e59cb81eb.PNG)
-
-## ★ 이 프로젝트에 필요한 준비물 ★
-1. Raspberry Pi3
-2. Smart Phone(iOS, Android 모두 가능)
-3. KaKao Talk 계정
-
-## ★ 프로젝트 구성도 ★
-![image](https://user-images.githubusercontent.com/43947747/46646178-9db8df00-cbc3-11e8-931d-4f227ad1d272.png)
-
-## ★ 개발 환경 ★
-- Raspbian(Raspberry Pi3)
-- Node.js
-- Windows 10(Laptop Computer)
-- Python(Tensorflow)
-
-## ★ 개발 내용 ★
-1. 카카오톡 api 서버를 구축한 후 카카오톡 플러스 친구를 직접 만들어 서비스를 제공.
-2. 나만의 데이터로 모델을 재학습.
-
-## ★ 일정 계획 ★
-- 1주차: 카카오톡 플러스 친구 개설 및 api 제작
-- 2주차: 모델을 재학습시킬때 사용할 데이터 수집 및 최초 학습
-- 3주차: 예측률이 90%를 넘을때까지 재학습
-- 4주차: 학습이 잘 되었다면 추가할 종류의 꽃 데이터 수집후 학습 진행
-
-## ★ Raspbian OS 환경설정 ★
-- Raspbian OS 환경 설정은 [Raspberry Pi 웹사이트](https://www.raspberrypi.org/documentation/installation/installing-images/) 참고.
-- `sudo apt-get uprade` 명령을 먼저 실행시킨 후 `sudo apt-get update` 명령을 실행시켜 OS 업데이트 .
+![image](https://user-images.githubusercontent.com/43947747/46928029-73f43200-d073-11e8-8c26-8577c0ede4b9.png)
+![image](https://user-images.githubusercontent.com/43947747/46928033-7f475d80-d073-11e8-9a72-d926d8d8f418.png)
+![image](https://user-images.githubusercontent.com/43947747/46928044-879f9880-d073-11e8-89c7-157b29cbec5a.png)
+![image](https://user-images.githubusercontent.com/43947747/46928054-91c19700-d073-11e8-925a-99b14316f5ae.png)
+![image](https://user-images.githubusercontent.com/43947747/46928110-e06f3100-d073-11e8-87d9-8993d130247a.png)
+![image](https://user-images.githubusercontent.com/43947747/46928129-ef55e380-d073-11e8-96de-fbb3a8dface5.png)
+![image](https://user-images.githubusercontent.com/43947747/46928157-1c09fb00-d074-11e8-926b-3af5b8245b80.png)
 
 ## ★ 필요한 프로그램과 도구 설치하기 ★
 ### 1. Tensorflow 설치
